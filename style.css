@@ -29,7 +29,7 @@ h1 {
 
 p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: black;
+    color: cornflowerblue;
     background: none;
     height: max-content;
 }
@@ -38,11 +38,15 @@ h3 {
     background-color: cornflowerblue;
     /*position: absolute;*/
     display: block;
+    border: solid lightpink;
 }
 
 h2 {
     font-weight: 100;
     font-style: italic;
+    border: solid cornflowerblue;
+    color: cornflowerblue;
+    background-color: lightpink;
 }
 
 .venice p {
@@ -83,6 +87,7 @@ h2 {
 #paragraph h3 {
     background-color: cornflowerblue;
     font-size: 20;
+    border: solid cornflowerblue;
 }
 
 @keyframes paragraph {
@@ -99,10 +104,12 @@ div.nav {
 
 .heart {
     background-color: cornflowerblue;
+    border: solid lightpink;
 }
 
 .heart h2 {
-    color: lightpink;
+    color: cornflowerblue;
+    border: solid darkblue;
 }
 /*
 .box {
