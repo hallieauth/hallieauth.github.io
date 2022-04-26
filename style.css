@@ -1,20 +1,186 @@
 a:link {
-    color: firebrick;
+    color: black;
 }
 a:visited {
-    color: lightpink;
+    color: rgb(243, 219, 239);
 }
 a:hover {
-    color: blueviolet;
+    color: gray;
 }
 a:active {
-    color: maroon;
+    color: black;
+}
+
+div.nav {
+    position: fixed;
+    margin-top: -70px;
+    font-size: 40px;
+    /*
+    border: 2px solid;
+    border-color: cornflowerblue;
+    */
+}
+
+
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    border: solid;
+    /*
+    background-image: url(sf.jpg);
+    background-position: 0px;
+    */
+    background-color: rgb(243, 219, 239);
+    margin-top: 70px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    float: left;
+    width: 50%;
+    padding: 15px;
+    border: 5px solid;
+    height: 2850%;
+}
+.resume {
+    margin-left: 25%;
+    margin-right: 50%;
+    display: block;
+    width: 95%;
+    height: 30px;
+    margin-top: 30px;
+    
+}
+
+div.gallery {
+    margin: 5px;
+    float: left;
+    width: 600px;
+    border: 2px solid;
+}
+
+.about {
+    text-align: center;
+    margin-top: 20%;
+    /*background-color: rgb(243, 219, 239);*/
+    padding-top: 200px;
+    padding-bottom: 200px;
+    border: solid;
+    margin-left: 55%;
+}
+
+.redwood {
+    float: left;
+    vertical-align: top;
+    margin: 400px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+ 
+.palm {
+    margin-top: 100px;
+    margin-right: 50px;
+    margin-left: 30%;
+}
+
+.sf {
+   display: block;
+   margin-left: 25%;
+   margin-right: auto;
+   max-width: max-content;
+   width:100%;
+   
+}
+
+.mccall {
+    display: block;
+    margin-left: 40%;
+    margin-right: 50%;
+    width: 100%;
+    
+    
+}
+
+.info {
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    
+}
+
+.mccall2 {
+    display: block;
+    margin-left: 40%;
+    margin-right: 50%;
+    width: 100%;
+}
+
+.info2 {
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+}
+
+.locals {
+    display: block;
+    margin-left: 40%;
+    margin-right: 50%;
+    width: 100%;
+}
+
+.locals2 {
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+}
+
+
+
+footer {
+    position: fixed;
+    background-color:rgb(243, 219, 239);
+    Border: solid;
+    bottom: -10px;
+    margin-top: 900px;
+}
+
+.index {
+    display:inline-block;
+    text-align: center;
+
+}
+
+.trees {
+    display: block;
+    margin-left: 30%;
+    margin-right: 50%;
+    width: 100%;
+}
+
+.ocean {
+    display: block;
+    margin-left: 30%;
+    margin-right: 50%;
+    width: 100%
+}
+
+.rocks {
+    display: block;
+    margin-left: 30%;
+    margin-right: 50%;
+    width: 100%;
 }
 /*
 div:hover {
     color: blue;
 }
-*/
+
 
 h1 {
     color: cornflowerblue;
@@ -36,7 +202,7 @@ p {
 
 h3 {
     background-color: cornflowerblue;
-    /*position: absolute;*/
+    /*position: absolute;
     display: block;
     border: solid lightpink;
 }
@@ -95,12 +261,6 @@ h2 {
     to {background-color: lightseagreen;}
 }
 
-div.nav {
-    position: fixed;
-    margin-top: -20px;
-    border: 2px solid;
-    border-color: cornflowerblue;
-}
 
 .heart {
     background-color: cornflowerblue;
